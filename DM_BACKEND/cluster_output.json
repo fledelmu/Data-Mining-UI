@@ -1,0 +1,1312 @@
+{
+    "clusters":[
+        {
+            "Name":"1ANGELES, JEOFREY",
+            "Amount":12219.9,
+            "Qty":3887.0,
+            "Sales Price":108.2982142857,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"1ATIENZAR VIVIAN",
+            "Amount":15746.0,
+            "Qty":3166.5,
+            "Sales Price":73.3153333333,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"1B I C O Y",
+            "Amount":6000.0,
+            "Qty":4000.0,
+            "Sales Price":1.5,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"1FRANCO ESCATRON",
+            "Amount":59738.5,
+            "Qty":24667.0,
+            "Sales Price":116.3161858974,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"1HUMOL, FELY",
+            "Amount":8100.0,
+            "Qty":2053.0,
+            "Sales Price":289.6363636364,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"1PILIPINA AGLERON",
+            "Amount":11047.0,
+            "Qty":6426.0,
+            "Sales Price":17.02375,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"1RENAN CRUZ",
+            "Amount":185420.8,
+            "Qty":60105.0,
+            "Sales Price":97.9854037267,
+            "Cluster_Sales":2
+        },
+        {
+            "Name":"1TAN, GERALDINE GAY",
+            "Amount":1042.4,
+            "Qty":430.0,
+            "Sales Price":102.77,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"2 GAISANO CENTER QUIRINO",
+            "Amount":11958.4,
+            "Qty":404.0,
+            "Sales Price":29.6,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"2 NCCC SPM DC PANACAN",
+            "Amount":141965.0,
+            "Qty":3821.0,
+            "Sales Price":40.3435158501,
+            "Cluster_Sales":8
+        },
+        {
+            "Name":"2NCCC -  MAA CENTRO",
+            "Amount":43785.65,
+            "Qty":1156.0,
+            "Sales Price":38.2373134328,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"2NCCC -  MALL MAA",
+            "Amount":1480.0,
+            "Qty":50.0,
+            "Sales Price":29.6,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"2NCCC - BAJADA VP",
+            "Amount":23242.85,
+            "Qty":723.0,
+            "Sales Price":33.0625,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"2NCCC - BUHANGIN -mall",
+            "Amount":38264.05,
+            "Qty":1263.0,
+            "Sales Price":30.9520408163,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"2NCCC - CABANTIAN",
+            "Amount":29594.7,
+            "Qty":866.0,
+            "Sales Price":34.9269230769,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"2NCCC - CALINAN 2",
+            "Amount":72121.9,
+            "Qty":2010.0,
+            "Sales Price":36.4972222222,
+            "Cluster_Sales":6
+        },
+        {
+            "Name":"2NCCC - CENTERPOINT",
+            "Amount":10596.8,
+            "Qty":358.0,
+            "Sales Price":29.6,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"2NCCC - MAIN -Uyanguren",
+            "Amount":9979.75,
+            "Qty":275.0,
+            "Sales Price":38.2892857143,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"2NCCC - PANABO",
+            "Amount":50264.35,
+            "Qty":1401.0,
+            "Sales Price":36.525,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"2NCCC - PANACAN",
+            "Amount":55518.4,
+            "Qty":1666.0,
+            "Sales Price":33.9188172043,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"2NCCC - STA. CRUZ",
+            "Amount":53784.6,
+            "Qty":1497.0,
+            "Sales Price":35.8493902439,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"2NCCC - TAGUM",
+            "Amount":98870.8,
+            "Qty":2775.0,
+            "Sales Price":36.8950381679,
+            "Cluster_Sales":6
+        },
+        {
+            "Name":"2NCCC - VISTA MALL",
+            "Amount":49996.4,
+            "Qty":1588.0,
+            "Sales Price":31.8404411765,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"2NCCC CATALUNAN GRANDE3",
+            "Amount":18173.1,
+            "Qty":555.0,
+            "Sales Price":33.5571428571,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"4M's STORE",
+            "Amount":4960.0,
+            "Qty":160.0,
+            "Sales Price":31.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"A.F.M.",
+            "Amount":860.0,
+            "Qty":2.0,
+            "Sales Price":430.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"AGING DM\/ ARDIS DEL MUNDO",
+            "Amount":750.0,
+            "Qty":10.0,
+            "Sales Price":75.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"AGING'S MEATSHOP",
+            "Amount":19062.5,
+            "Qty":262.0,
+            "Sales Price":74.1666666667,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"AKS \/ PACLIBAR",
+            "Amount":3038.0,
+            "Qty":74.0,
+            "Sales Price":46.5,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"ALTAMERA",
+            "Amount":905.0,
+            "Qty":2.25,
+            "Sales Price":471.88889,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"AMY DEL MUNDO-",
+            "Amount":4659.25,
+            "Qty":21.75,
+            "Sales Price":381.9333333333,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"ANABELLE SARMIENTO",
+            "Amount":420.0,
+            "Qty":6.0,
+            "Sales Price":70.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"ANNE",
+            "Amount":14200.0,
+            "Qty":48.0,
+            "Sales Price":360.0,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"ARED ENTERPRISES",
+            "Amount":1440.0,
+            "Qty":8.0,
+            "Sales Price":180.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"ARTCATS TRADING PHIL.",
+            "Amount":180.0,
+            "Qty":4.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"BAJO",
+            "Amount":1801.5,
+            "Qty":2.5,
+            "Sales Price":723.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"BAYANIHAN INTEGRATED SCHOOL",
+            "Amount":450.0,
+            "Qty":10.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"BELINDA FERNANDEZ",
+            "Amount":525.0,
+            "Qty":7.0,
+            "Sales Price":75.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"BUSINESS CLASS RESTOBAR",
+            "Amount":735.0,
+            "Qty":1.0,
+            "Sales Price":735.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"CARLENE TIHO",
+            "Amount":775.0,
+            "Qty":32.0,
+            "Sales Price":56.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"CARRIE DM",
+            "Amount":430.0,
+            "Qty":1.0,
+            "Sales Price":430.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"CASH",
+            "Amount":124351.75,
+            "Qty":1553.0361,
+            "Sales Price":201.2326607317,
+            "Cluster_Sales":8
+        },
+        {
+            "Name":"CESAR NAZARIO JR.",
+            "Amount":535.0,
+            "Qty":1.0,
+            "Sales Price":535.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"CHIANG-MAI SUPERSTAR",
+            "Amount":900.0,
+            "Qty":9.0,
+            "Sales Price":100.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"CHINABANK",
+            "Amount":585.0,
+            "Qty":8.0,
+            "Sales Price":72.5,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"Dr. Pascua",
+            "Amount":100.0,
+            "Qty":1.0,
+            "Sales Price":100.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"EDMUND DEL MUNDO",
+            "Amount":300.0,
+            "Qty":5.0,
+            "Sales Price":57.5,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"ENTERPRISE BANK",
+            "Amount":750.0,
+            "Qty":10.0,
+            "Sales Price":75.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"FE MARCELINO",
+            "Amount":11960.0,
+            "Qty":198.0,
+            "Sales Price":58.696969697,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"FREDA SANGALANG",
+            "Amount":2345.0,
+            "Qty":50.0,
+            "Sales Price":48.6666666667,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"GINA TOGON",
+            "Amount":490.0,
+            "Qty":7.0,
+            "Sales Price":70.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"GRAB MART",
+            "Amount":48322.0,
+            "Qty":614.0,
+            "Sales Price":80.8639705882,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"JANICE MONTENEGRO",
+            "Amount":13574.0,
+            "Qty":398.0,
+            "Sales Price":37.5945945946,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"JO",
+            "Amount":735.0,
+            "Qty":1.0,
+            "Sales Price":735.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"JOY DE GUZMAN",
+            "Amount":900.0,
+            "Qty":20.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"LEANDRO'S",
+            "Amount":780.0,
+            "Qty":5.0,
+            "Sales Price":285.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"LEO MADRAZO",
+            "Amount":1000.0,
+            "Qty":13.0,
+            "Sales Price":87.5,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"LOLA ENCIAS GOTO MAMI",
+            "Amount":450.0,
+            "Qty":10.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"LOTS FOR LESS - CALINAN",
+            "Amount":13500.6,
+            "Qty":400.0,
+            "Sales Price":38.57625,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"LOTS FOR LESS- LANANG",
+            "Amount":1860.0,
+            "Qty":60.0,
+            "Sales Price":31.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MAGGIS MINIMART",
+            "Amount":735.0,
+            "Qty":1.0,
+            "Sales Price":735.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MAM JHONNAH",
+            "Amount":1886.0,
+            "Qty":33.0,
+            "Sales Price":111.8333333333,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MANG INASAL AGDAO",
+            "Amount":700.0,
+            "Qty":10.0,
+            "Sales Price":70.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MANG INASAL DIGOS 1 GRAND",
+            "Amount":16200.0,
+            "Qty":360.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"MANG INASAL DIGOS 2",
+            "Amount":7515.0,
+            "Qty":167.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MANG INASAL GMALL TORIL",
+            "Amount":700.0,
+            "Qty":10.0,
+            "Sales Price":70.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MANG INASAL MAGSAYSAY -UYANGUREN",
+            "Amount":3780.0,
+            "Qty":54.0,
+            "Sales Price":70.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MANG INASAL NABUNTURAN",
+            "Amount":700.0,
+            "Qty":10.0,
+            "Sales Price":70.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MANG INASAL SAN FRANS",
+            "Amount":700.0,
+            "Qty":10.0,
+            "Sales Price":70.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MCCORMICK PHILS INC.",
+            "Amount":244.0,
+            "Qty":4.0,
+            "Sales Price":60.6666666667,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MELVIN FROZEN",
+            "Amount":600.0,
+            "Qty":8.0,
+            "Sales Price":75.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MGCP",
+            "Amount":2294.0,
+            "Qty":37.0,
+            "Sales Price":62.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"MULTISHIELD SECURITY SERVICES",
+            "Amount":1980.0,
+            "Qty":44.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"NCCC - CHOICE BINUGAO",
+            "Amount":21528.0,
+            "Qty":615.0,
+            "Sales Price":35.4757575758,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"NCCC - CHOICE BOLTON",
+            "Amount":57118.5,
+            "Qty":1473.0,
+            "Sales Price":38.7636690647,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"NCCC - CHOICE CABANTIAN",
+            "Amount":28706.75,
+            "Qty":655.0,
+            "Sales Price":44.1764705882,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"NCCC - CHOICE CARMEN",
+            "Amount":81237.0,
+            "Qty":1871.0,
+            "Sales Price":44.3510416667,
+            "Cluster_Sales":6
+        },
+        {
+            "Name":"NCCC - CHOICE CATALUNAN GRANDE2",
+            "Amount":56191.0,
+            "Qty":1500.0,
+            "Sales Price":38.5679166667,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"NCCC - CHOICE LANANG",
+            "Amount":79195.6,
+            "Qty":1995.0,
+            "Sales Price":41.2621428571,
+            "Cluster_Sales":6
+        },
+        {
+            "Name":"NCCC - CHOICE LANDMARK",
+            "Amount":83022.35,
+            "Qty":2240.0,
+            "Sales Price":36.1593959732,
+            "Cluster_Sales":6
+        },
+        {
+            "Name":"NCCC - CHOICE MAGALLANES",
+            "Amount":30144.4,
+            "Qty":692.0,
+            "Sales Price":43.5588235294,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"NCCC - CHOICE MANDUG",
+            "Amount":47220.0,
+            "Qty":1355.0,
+            "Sales Price":35.8418918919,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"NCCC - CHOICE MINTAL 2 proper",
+            "Amount":50481.0,
+            "Qty":1338.0,
+            "Sales Price":38.0307692308,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"NCCC - CHOICE NHA BUHANGIN",
+            "Amount":26203.25,
+            "Qty":630.0,
+            "Sales Price":42.3336734694,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"NCCC - CHOICE NOVA TIERRA",
+            "Amount":40611.55,
+            "Qty":1031.0,
+            "Sales Price":39.2484042553,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"NCCC - CHOICE PANABO",
+            "Amount":12852.75,
+            "Qty":328.0,
+            "Sales Price":39.1411111111,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"NCCC - CHOICE PEQUENO",
+            "Amount":95823.85,
+            "Qty":2228.0,
+            "Sales Price":42.5363636364,
+            "Cluster_Sales":6
+        },
+        {
+            "Name":"NCCC - CHOICE PUAN",
+            "Amount":23115.4,
+            "Qty":532.0,
+            "Sales Price":43.45,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"NCCC - CHOICE SANDAWA",
+            "Amount":111277.9,
+            "Qty":2581.0,
+            "Sales Price":43.1831797235,
+            "Cluster_Sales":8
+        },
+        {
+            "Name":"NCCC - CHOICE TAGUM MARKET",
+            "Amount":14823.4,
+            "Qty":454.0,
+            "Sales Price":34.2166666667,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"NCCC - CHOICE TIGATTO DMMA",
+            "Amount":46385.5,
+            "Qty":1133.0,
+            "Sales Price":41.7607954545,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"NCCC - CHOICE WOODLANE",
+            "Amount":30816.15,
+            "Qty":758.0,
+            "Sales Price":42.2826086957,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"NORMIE DEL MUNDO",
+            "Amount":8050.0,
+            "Qty":52.0,
+            "Sales Price":231.5789473684,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB BRYAN",
+            "Amount":1710.0,
+            "Qty":38.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB CARRIE",
+            "Amount":407.0,
+            "Qty":7.0,
+            "Sales Price":58.4,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB CONNIE MONGKIL",
+            "Amount":1715.0,
+            "Qty":32.0,
+            "Sales Price":51.875,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB CORA",
+            "Amount":6880.0,
+            "Qty":150.0,
+            "Sales Price":47.6511627907,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB CRISTY",
+            "Amount":10385.0,
+            "Qty":118.0,
+            "Sales Price":157.3513513514,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB EDISON",
+            "Amount":2880.0,
+            "Qty":64.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB ELLYN JOY",
+            "Amount":1035.0,
+            "Qty":18.0,
+            "Sales Price":58.75,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB HESTON HENIO -TROY",
+            "Amount":7229.0,
+            "Qty":144.0,
+            "Sales Price":50.2444444444,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB JANE",
+            "Amount":3443.0,
+            "Qty":64.0,
+            "Sales Price":56.5,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB JELYN",
+            "Amount":3284.0,
+            "Qty":70.0,
+            "Sales Price":48.7939393939,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB JOHN ERON",
+            "Amount":4446.0,
+            "Qty":114.0,
+            "Sales Price":41.5384615385,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB JOHN SNYDER",
+            "Amount":7489.0,
+            "Qty":106.0,
+            "Sales Price":106.5384615385,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB JUDE THERESE",
+            "Amount":1189.0,
+            "Qty":19.0,
+            "Sales Price":61.7,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB JULIUS OLONG",
+            "Amount":9602.0,
+            "Qty":195.25,
+            "Sales Price":95.3103448276,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB MARITES",
+            "Amount":180.0,
+            "Qty":4.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB MARY ANN GOMEZ",
+            "Amount":1591.0,
+            "Qty":17.0,
+            "Sales Price":108.1666666667,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB MELANIE",
+            "Amount":1160.0,
+            "Qty":20.0,
+            "Sales Price":56.5714285714,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB SIDNEY",
+            "Amount":3440.0,
+            "Qty":68.0,
+            "Sales Price":51.7647058824,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB TAGAB, HERMILYN",
+            "Amount":76.0,
+            "Qty":2.0,
+            "Sales Price":38.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB YANCY LOPEZ",
+            "Amount":132.0,
+            "Qty":2.0,
+            "Sales Price":66.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PB ZEN2",
+            "Amount":5065.5,
+            "Qty":104.25,
+            "Sales Price":67.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PHOTO HAUS",
+            "Amount":100.0,
+            "Qty":1.0,
+            "Sales Price":100.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PORKYS ANN MENDROS",
+            "Amount":2160.0,
+            "Qty":48.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PORKYS FRANCIS",
+            "Amount":769.0,
+            "Qty":15.0,
+            "Sales Price":52.8333333333,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PORKYS MICHAEL",
+            "Amount":495.0,
+            "Qty":11.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PORKYS ORTIZ",
+            "Amount":140.0,
+            "Qty":2.0,
+            "Sales Price":70.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PORKYS RANDY",
+            "Amount":225.0,
+            "Qty":5.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PORKYS TWINKLE",
+            "Amount":3822.0,
+            "Qty":64.46416,
+            "Sales Price":85.2272727273,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"PRISCILLA GALOPE",
+            "Amount":1170.0,
+            "Qty":26.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"R&R CAKESHOP",
+            "Amount":900.0,
+            "Qty":20.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"REN2",
+            "Amount":450.0,
+            "Qty":10.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"RICO",
+            "Amount":775.0,
+            "Qty":25.0,
+            "Sales Price":31.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"RIO",
+            "Amount":690.0,
+            "Qty":1.0,
+            "Sales Price":690.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"RORY\/CECILS",
+            "Amount":1750.0,
+            "Qty":25.0,
+            "Sales Price":70.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"SAN PABLO PARISH",
+            "Amount":450.0,
+            "Qty":10.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"SEBASTIAN",
+            "Amount":570.0,
+            "Qty":8.0,
+            "Sales Price":72.5,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"SHELL ECOLAND SANDAWA",
+            "Amount":2355.0,
+            "Qty":39.0,
+            "Sales Price":61.6666666667,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"SHELL MAMAY ROAD",
+            "Amount":2700.0,
+            "Qty":60.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"SHELL MATINA  ENCLAVES",
+            "Amount":16940.0,
+            "Qty":434.0,
+            "Sales Price":39.1034482759,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"SKIPPY MADRAZO",
+            "Amount":372.0,
+            "Qty":6.0,
+            "Sales Price":62.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"STALL - ABREEZA",
+            "Amount":54495.0,
+            "Qty":2313.0,
+            "Sales Price":53.4572368421,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"STALL - GMALL BAJADA",
+            "Amount":186429.6,
+            "Qty":47271.5,
+            "Sales Price":151.0032157676,
+            "Cluster_Sales":2
+        },
+        {
+            "Name":"STALL - P N S\/ NCCC VP",
+            "Amount":206097.71,
+            "Qty":44796.395,
+            "Sales Price":141.7564163415,
+            "Cluster_Sales":2
+        },
+        {
+            "Name":"STALL - POBLACION -CHICHARON",
+            "Amount":36028.0,
+            "Qty":4167.5,
+            "Sales Price":97.3399193548,
+            "Cluster_Sales":7
+        },
+        {
+            "Name":"STALL - SAVEMORE",
+            "Amount":172636.6,
+            "Qty":37603.5,
+            "Sales Price":72.7533980583,
+            "Cluster_Sales":2
+        },
+        {
+            "Name":"STALL - SM",
+            "Amount":243274.74,
+            "Qty":49590.356,
+            "Sales Price":122.5450877472,
+            "Cluster_Sales":2
+        },
+        {
+            "Name":"STELLA GARLIC",
+            "Amount":900.0,
+            "Qty":12.0,
+            "Sales Price":75.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"SUSAN DM\/ Ate Baby",
+            "Amount":1798.0,
+            "Qty":48.0,
+            "Sales Price":39.0833333333,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"TARAK-TARAK",
+            "Amount":180.0,
+            "Qty":4.0,
+            "Sales Price":45.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"TEREISTA BAJO",
+            "Amount":1785.0,
+            "Qty":16.0,
+            "Sales Price":236.25,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"VARIOUS CUSTOMERS CASH",
+            "Amount":615863.0,
+            "Qty":10257.39306,
+            "Sales Price":83.2789678676,
+            "Cluster_Sales":9
+        },
+        {
+            "Name":"VICKS CASIS",
+            "Amount":523.0,
+            "Qty":4.0,
+            "Sales Price":164.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"Various Customers ABREEZA",
+            "Amount":929495.0,
+            "Qty":10917.0,
+            "Sales Price":127.5152555301,
+            "Cluster_Sales":3
+        },
+        {
+            "Name":"Various Customers GMALL BAJADA",
+            "Amount":613875.0,
+            "Qty":12054.0,
+            "Sales Price":160.4774637128,
+            "Cluster_Sales":9
+        },
+        {
+            "Name":"Various Customers NCCC VICTORIA",
+            "Amount":618369.0,
+            "Qty":11306.0,
+            "Sales Price":145.2366751269,
+            "Cluster_Sales":9
+        },
+        {
+            "Name":"Various Customers POBLACION -chicharon",
+            "Amount":390430.0,
+            "Qty":4033.0,
+            "Sales Price":105.5911330049,
+            "Cluster_Sales":5
+        },
+        {
+            "Name":"Various Customers POBLACION -meals",
+            "Amount":79960.0,
+            "Qty":528.0,
+            "Sales Price":151.9794344473,
+            "Cluster_Sales":6
+        },
+        {
+            "Name":"Various Customers SAVEMORE",
+            "Amount":539495.0,
+            "Qty":7146.0,
+            "Sales Price":85.2271252433,
+            "Cluster_Sales":1
+        },
+        {
+            "Name":"Various Customers SM",
+            "Amount":580370.0,
+            "Qty":8217.0,
+            "Sales Price":124.1497867804,
+            "Cluster_Sales":1
+        },
+        {
+            "Name":"WHITESPHERE",
+            "Amount":875.0,
+            "Qty":8.0,
+            "Sales Price":115.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"WHITESPHERE EMPLOYEE",
+            "Amount":17618.0,
+            "Qty":281.0,
+            "Sales Price":179.40625,
+            "Cluster_Sales":0
+        },
+        {
+            "Name":"WSE SIMON",
+            "Amount":310.0,
+            "Qty":10.0,
+            "Sales Price":31.0,
+            "Cluster_Sales":4
+        },
+        {
+            "Name":"ZYI",
+            "Amount":735.0,
+            "Qty":1.0,
+            "Sales Price":735.0,
+            "Cluster_Sales":4
+        }
+    ],
+    "summary":{
+        "Amount":{
+            "0":18835.9630434783,
+            "1":559932.5,
+            "2":198771.89,
+            "3":929495.0,
+            "4":2116.6231578947,
+            "5":390430.0,
+            "6":84318.7857142857,
+            "7":49262.78125,
+            "8":125864.8833333333,
+            "9":616035.6666666666
+        },
+        "Qty":{
+            "0":1003.152173913,
+            "1":7681.5,
+            "2":47873.3502,
+            "3":10917.0,
+            "4":105.0890964211,
+            "5":4033.0,
+            "6":1949.5714285714,
+            "7":3010.15625,
+            "8":2651.6787,
+            "9":11205.7976866667
+        },
+        "Sales Price":{
+            "0":64.6505719315,
+            "1":104.6884560119,
+            "2":117.2087043282,
+            "3":127.5152555301,
+            "4":134.1334743135,
+            "5":105.5911330049,
+            "6":55.6686627101,
+            "7":49.2196101325,
+            "8":94.9197854351,
+            "9":129.6643689024
+        }
+    },
+    "customers_per_cluster":{
+        "0":[
+            "1ANGELES, JEOFREY",
+            "1ATIENZAR VIVIAN",
+            "1PILIPINA AGLERON",
+            "2 GAISANO CENTER QUIRINO",
+            "2NCCC - BAJADA VP",
+            "2NCCC - CABANTIAN",
+            "2NCCC CATALUNAN GRANDE3",
+            "AGING'S MEATSHOP",
+            "ANNE",
+            "FE MARCELINO",
+            "JANICE MONTENEGRO",
+            "LOTS FOR LESS - CALINAN",
+            "MANG INASAL DIGOS 1 GRAND",
+            "NCCC - CHOICE BINUGAO",
+            "NCCC - CHOICE CABANTIAN",
+            "NCCC - CHOICE MAGALLANES",
+            "NCCC - CHOICE NHA BUHANGIN",
+            "NCCC - CHOICE PANABO",
+            "NCCC - CHOICE PUAN",
+            "NCCC - CHOICE TAGUM MARKET",
+            "NCCC - CHOICE WOODLANE",
+            "SHELL MATINA  ENCLAVES",
+            "WHITESPHERE EMPLOYEE"
+        ],
+        "1":[
+            "Various Customers SAVEMORE",
+            "Various Customers SM"
+        ],
+        "2":[
+            "1RENAN CRUZ",
+            "STALL - GMALL BAJADA",
+            "STALL - P N S\/ NCCC VP",
+            "STALL - SAVEMORE",
+            "STALL - SM"
+        ],
+        "3":[
+            "Various Customers ABREEZA"
+        ],
+        "4":[
+            "1B I C O Y",
+            "1HUMOL, FELY",
+            "1TAN, GERALDINE GAY",
+            "2NCCC -  MALL MAA",
+            "2NCCC - CENTERPOINT",
+            "2NCCC - MAIN -Uyanguren",
+            "4M's STORE",
+            "A.F.M.",
+            "AGING DM\/ ARDIS DEL MUNDO",
+            "AKS \/ PACLIBAR",
+            "ALTAMERA",
+            "AMY DEL MUNDO-",
+            "ANABELLE SARMIENTO",
+            "ARED ENTERPRISES",
+            "ARTCATS TRADING PHIL.",
+            "BAJO",
+            "BAYANIHAN INTEGRATED SCHOOL",
+            "BELINDA FERNANDEZ",
+            "BUSINESS CLASS RESTOBAR",
+            "CARLENE TIHO",
+            "CARRIE DM",
+            "CESAR NAZARIO JR.",
+            "CHIANG-MAI SUPERSTAR",
+            "CHINABANK",
+            "Dr. Pascua",
+            "EDMUND DEL MUNDO",
+            "ENTERPRISE BANK",
+            "FREDA SANGALANG",
+            "GINA TOGON",
+            "JO",
+            "JOY DE GUZMAN",
+            "LEANDRO'S",
+            "LEO MADRAZO",
+            "LOLA ENCIAS GOTO MAMI",
+            "LOTS FOR LESS- LANANG",
+            "MAGGIS MINIMART",
+            "MAM JHONNAH",
+            "MANG INASAL AGDAO",
+            "MANG INASAL DIGOS 2",
+            "MANG INASAL GMALL TORIL",
+            "MANG INASAL MAGSAYSAY -UYANGUREN",
+            "MANG INASAL NABUNTURAN",
+            "MANG INASAL SAN FRANS",
+            "MCCORMICK PHILS INC.",
+            "MELVIN FROZEN",
+            "MGCP",
+            "MULTISHIELD SECURITY SERVICES",
+            "NORMIE DEL MUNDO",
+            "PB BRYAN",
+            "PB CARRIE",
+            "PB CONNIE MONGKIL",
+            "PB CORA",
+            "PB CRISTY",
+            "PB EDISON",
+            "PB ELLYN JOY",
+            "PB HESTON HENIO -TROY",
+            "PB JANE",
+            "PB JELYN",
+            "PB JOHN ERON",
+            "PB JOHN SNYDER",
+            "PB JUDE THERESE",
+            "PB JULIUS OLONG",
+            "PB MARITES",
+            "PB MARY ANN GOMEZ",
+            "PB MELANIE",
+            "PB SIDNEY",
+            "PB TAGAB, HERMILYN",
+            "PB YANCY LOPEZ",
+            "PB ZEN2",
+            "PHOTO HAUS",
+            "PORKYS ANN MENDROS",
+            "PORKYS FRANCIS",
+            "PORKYS MICHAEL",
+            "PORKYS ORTIZ",
+            "PORKYS RANDY",
+            "PORKYS TWINKLE",
+            "PRISCILLA GALOPE",
+            "R&R CAKESHOP",
+            "REN2",
+            "RICO",
+            "RIO",
+            "RORY\/CECILS",
+            "SAN PABLO PARISH",
+            "SEBASTIAN",
+            "SHELL ECOLAND SANDAWA",
+            "SHELL MAMAY ROAD",
+            "SKIPPY MADRAZO",
+            "STELLA GARLIC",
+            "SUSAN DM\/ Ate Baby",
+            "TARAK-TARAK",
+            "TEREISTA BAJO",
+            "VICKS CASIS",
+            "WHITESPHERE",
+            "WSE SIMON",
+            "ZYI"
+        ],
+        "5":[
+            "Various Customers POBLACION -chicharon"
+        ],
+        "6":[
+            "2NCCC - CALINAN 2",
+            "2NCCC - TAGUM",
+            "NCCC - CHOICE CARMEN",
+            "NCCC - CHOICE LANANG",
+            "NCCC - CHOICE LANDMARK",
+            "NCCC - CHOICE PEQUENO",
+            "Various Customers POBLACION -meals"
+        ],
+        "7":[
+            "1FRANCO ESCATRON",
+            "2NCCC -  MAA CENTRO",
+            "2NCCC - BUHANGIN -mall",
+            "2NCCC - PANABO",
+            "2NCCC - PANACAN",
+            "2NCCC - STA. CRUZ",
+            "2NCCC - VISTA MALL",
+            "GRAB MART",
+            "NCCC - CHOICE BOLTON",
+            "NCCC - CHOICE CATALUNAN GRANDE2",
+            "NCCC - CHOICE MANDUG",
+            "NCCC - CHOICE MINTAL 2 proper",
+            "NCCC - CHOICE NOVA TIERRA",
+            "NCCC - CHOICE TIGATTO DMMA",
+            "STALL - ABREEZA",
+            "STALL - POBLACION -CHICHARON"
+        ],
+        "8":[
+            "2 NCCC SPM DC PANACAN",
+            "CASH",
+            "NCCC - CHOICE SANDAWA"
+        ],
+        "9":[
+            "VARIOUS CUSTOMERS CASH",
+            "Various Customers GMALL BAJADA",
+            "Various Customers NCCC VICTORIA"
+        ]
+    }
+}
