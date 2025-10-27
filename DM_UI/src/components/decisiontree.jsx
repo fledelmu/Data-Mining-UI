@@ -28,7 +28,7 @@ export default function DecisionTreeChart() {
 
           if (newNode.name) {
             newNode.name = newNode.name
-              .replaceAll("Name_encoded", "Transaction")
+              .replaceAll("Name_encoded", "Customers")
               .replaceAll("Item_encoded", "Item")
               .replaceAll("Type_encoded", "Type");
           }
@@ -74,8 +74,8 @@ export default function DecisionTreeChart() {
         zoomable={false}
         collapsible={false}
         draggable={false}
-        translate={{ x: 100, y: 447 }}
-        nodeSize={{ x: 200, y: 35 }}
+        translate={{ x: 250, y: 750 }}
+        nodeSize={{ x: 200, y: 29 }}
         styles={{
           links: { stroke: "#ffffff", strokeWidth: 2 },
           nodes: {

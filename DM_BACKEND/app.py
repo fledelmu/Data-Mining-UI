@@ -44,13 +44,12 @@ class NaNEncoder(json.JSONEncoder):
 def health_check():
     return {"status": "Server running!"}
 
-# Lazy loaders (only load when needed)
 def load_data():
-    path = "C:/Users/Asus/Documents/Programming Files/Data-Mining-UI/DM_BACKEND/data mining cleaned.xlsx - Sheet1.csv"
+    path = "C:/Users/USER/Documents/Programming Files/Data Mining UI/DM_BACKEND/data mining cleaned.xlsx - Sheet1.csv"
     return pd.read_csv(path)
 
 def load_models():
-    model_path = "C:/Users/Asus/Documents/Programming Files/Data-Mining-UI/DM_BACKEND/Data mining model"
+    model_path = "C:/Users/USER/Documents/Programming Files/Data Mining UI/DM_BACKEND/Data mining model"
     tree = joblib.load(os.path.join(model_path, "decision_tree_model.pkl"))
     le_type = joblib.load(os.path.join(model_path, "labelencoder_type.pkl"))
     le_name = joblib.load(os.path.join(model_path, "labelencoder_name.pkl"))
@@ -87,6 +86,8 @@ def tree_to_json(decision_tree, feature_names, class_names):
 @app.post("/predict/")
 def decision_tree_endpoint():
     df = load_data()
+    # Assuming 'tree' is the trained model and 'load_models' also handles
+    # the feature columns used during training.
     tree, le_type, le_name, le_item = load_models()
 
     # Preprocess
@@ -97,13 +98,13 @@ def decision_tree_endpoint():
 
     # Encode
     df["Type_encoded"] = le_type.transform(df["Type"].astype(str))
+    # Note: Name_encoded is created but NOT used as a feature
     df["Name_encoded"] = le_name.transform(df["Name"].astype(str))
     df["Item_encoded"] = le_item.transform(df["Item"].astype(str))
 
-    # Features
-    X = df[["Qty", "Sales Price", "Amount", "Name_encoded", "Item_encoded"]]
 
-    # Convert the decision tree to JSON
+    X = df[["Qty", "Sales Price", "Amount", "Item_encoded"]]
+
     tree_json = tree_to_json(tree, X.columns, le_type.classes_)
 
     return JSONResponse(content=[tree_json])

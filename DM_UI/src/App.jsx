@@ -12,7 +12,7 @@ function App() {
         <div className='flex h-[500px] w-full'>
             <ScatterPlot/>
         </div>
-        <div className='flex h-[800px] w-full'>
+        <div className='flex h-[1500px] w-full'>
             <DecisionTree/>
         </div>
         <div className='flex h-[500px] w-full'>
