@@ -116,7 +116,7 @@ def forecast_endpoint(request : ForecastRequest):
     try:
         df = load_data()
 
-        # --- Clean and parse data ---
+        #  Clean and parse data 
         df = df.copy()
         df["Name"] = df["Name"].astype(str).str.strip()  # remove extra spaces
         df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
@@ -131,7 +131,7 @@ def forecast_endpoint(request : ForecastRequest):
         # Drop rows with invalid data
         df = df.dropna(subset=["Name", "Date", "Amount"])
 
-        # --- Aggregate monthly sales ---
+        #  Aggregate monthly sales 
         df['Month'] = df['Date'].dt.to_period('M')
         monthly_sales = (
             df.groupby(['Name', 'Month'])['Amount']
@@ -145,11 +145,11 @@ def forecast_endpoint(request : ForecastRequest):
 
         store_name_clean = store_name.strip().lower()
         print(f"Store: {store_name}, months included:", monthly_sales[monthly_sales['Name'].str.lower() == store_name_clean]['Month'].astype(str).tolist())
-        # --- Filter store (case-insensitive) ---
+        #  Filter store (caseinsensitive) 
         store_name_clean = store_name.strip().lower()
         store_sales = monthly_sales[monthly_sales['Name'].str.lower() == store_name_clean][['ds','y']].copy()
 
-        print(f"Store: {store_name}, months included:", store_sales['ds'].dt.strftime('%Y-%m').tolist())
+        print(f"Store: {store_name}, months included:", store_sales['ds'].dt.strftime('%Y%m').tolist())
 
         if store_sales.empty:
             available_names = monthly_sales['Name'].unique().tolist()
@@ -161,7 +161,7 @@ def forecast_endpoint(request : ForecastRequest):
         if len(store_sales) < 2:
             return JSONResponse({"error": f"Not enough data to forecast for store: {store_name}"}, status_code=400)
 
-        # --- Train Prophet ---
+        #  Train Prophet 
         model = Prophet()
         model.fit(store_sales)
 
@@ -174,7 +174,7 @@ def forecast_endpoint(request : ForecastRequest):
         forecast_df['y_actual'] = forecast_df['ds'].map(actuals_map)
 
         # Format dates
-        forecast_df['ds'] = forecast_df['ds'].dt.strftime('%Y-%m-%d')
+        forecast_df['ds'] = forecast_df['ds'].dt.strftime('%Y%m%d')
 
         # Clean NaN/Inf values
         records = forecast_df[['ds', 'yhat', 'yhat_lower', 'yhat_upper', 'y_actual']].to_dict(orient="records")
@@ -201,39 +201,39 @@ def forecast_endpoint(request : ForecastRequest):
 def scatter_plot():
     try:
         df = load_data()
-        # --- Convert to numeric ---
+        #  Convert to numeric 
         df["Qty"] = pd.to_numeric(df["Qty"], errors="coerce")
         df["Sales Price"] = pd.to_numeric(df["Sales Price"], errors="coerce")
         df["Amount"] = pd.to_numeric(df["Amount"], errors="coerce")
         df = df.dropna(subset=["Qty", "Sales Price", "Amount"])
 
-        # --- Aggregate by customer ---
+        #  Aggregate by customer 
         customer_data = df.groupby("Name").agg({
             "Amount": "sum",
             "Qty": "sum",
             "Sales Price": "mean",
         }).reset_index()
 
-        # --- Scale ---
+        #  Scale 
         scaler = StandardScaler()
         X_scaled = scaler.fit_transform(customer_data[["Amount"]])
 
-        # --- K-Means ---
+        #  KMeans 
         best_k = 10
         kmeans = KMeans(n_clusters=best_k, random_state=42, n_init=10)
         customer_data["Cluster_Sales"] = kmeans.fit_predict(X_scaled)
 
-        # --- Cluster summary ---
+        #  Cluster summary 
         cluster_summary = customer_data.groupby("Cluster_Sales").mean(numeric_only=True)
 
-        # --- Customers per cluster ---
+        #  Customers per cluster 
         cluster_customers = (
             customer_data.groupby("Cluster_Sales")["Name"]
             .apply(list)
             .to_dict()
         )
 
-        # --- Prepare output ---
+        #  Prepare output 
         output = {
             "clusters": customer_data.to_dict(orient="records"),
             "summary": cluster_summary.to_dict(),

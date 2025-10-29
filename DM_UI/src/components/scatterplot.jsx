@@ -1,43 +1,55 @@
-import React, { useEffect, useState } from "react";
-import {
-  ScatterChart,
-  Scatter,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-} from "recharts";
-import { clustering } from './api';
+
+import { useEffect, useState } from "react"
+import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts"
+import { clustering } from "./api"
 
 export default function ClusterScatterPlot() {
-  const [customerData, setCustomerData] = useState([]);
-  const best_k = 10;
+  const [customerData, setCustomerData] = useState([])
+  const best_k = 10
 
   const COLORS = [
-    "#FFB703", "#8ECAE6", "#FB8500", "#90EE90", "#FF69B4",
-    "#FFD700", "#ADFF2F", "#40E0D0", "#FF7F50", "#E0FFFF"
-  ];
+    "#FFB703",
+    "#8ECAE6",
+    "#FB8500",
+    "#90EE90",
+    "#FF69B4",
+    "#FFD700",
+    "#ADFF2F",
+    "#40E0D0",
+    "#FF7F50",
+    "#E0FFFF",
+  ]
 
   // ✅ Fetch clusters from API once
   useEffect(() => {
     const loadClusters = async () => {
       try {
-        const result = await clustering(); 
-        console.log("Clustering API result:", result);
-        setCustomerData(result.clusters || []); // only set the clusters array
-      } catch (error) {
-        console.error("Error fetching clustering data:", error);
-        setCustomerData([]);
-      }
-    };
+        const result = await clustering()
+        console.log("Clustering API result:", result)
+        // Convert Amount and Qty to numbers to ensure proper sorting
+        const processedData = (result.clusters || [])
+          .map((item) => ({
+            ...item,
+            Amount: Number(item.Amount),
+            Qty: Number(item.Qty),
+          }))
+          .sort((a, b) => a.Amount - b.Amount)
 
-    loadClusters();
-  }, []);
+        setCustomerData(processedData)
+      } catch (error) {
+        console.error("Error fetching clustering data:", error)
+        setCustomerData([])
+      }
+    }
+
+    loadClusters()
+  }, [])
 
   return (
     <div className="h-[500px] w-full bg-gray-500 p-4 rounded-lg">
+      <h2 className="text-center text-white text-xl font-semibold">
+        Customer Segmentation
+      </h2>
       <ResponsiveContainer width="100%" height="100%">
         <ScatterChart>
           <CartesianGrid strokeDasharray="3 3" stroke="#d1d5db" />
@@ -60,14 +72,22 @@ export default function ClusterScatterPlot() {
               if (active && payload && payload.length) {
                 return (
                   <div style={{ backgroundColor: "#1f2937", padding: "10px", color: "#ffffff", borderRadius: "6px" }}>
-                    <p><strong>Cluster:</strong> {payload[0].payload.Cluster_Sales}</p>
-                    <p><strong>Name:</strong> {payload[0].payload.Name}</p>
-                    <p><strong>Total Sales:</strong> {payload[0].payload.Amount}</p>
-                    <p><strong>Total Qty:</strong> {payload[0].payload.Qty}</p>
+                    <p>
+                      <strong>Cluster:</strong> {payload[0].payload.Cluster_Sales}
+                    </p>
+                    <p>
+                      <strong>Name:</strong> {payload[0].payload.Name}
+                    </p>
+                    <p>
+                      <strong>Total Sales:</strong> {payload[0].payload.Amount}
+                    </p>
+                    <p>
+                      <strong>Total Qty:</strong> {payload[0].payload.Qty}
+                    </p>
                   </div>
-                );
+                )
               }
-              return null;
+              return null
             }}
           />
           <Legend wrapperStyle={{ color: "#ffffff" }} />
@@ -82,5 +102,5 @@ export default function ClusterScatterPlot() {
         </ScatterChart>
       </ResponsiveContainer>
     </div>
-  );
+  )
 }

@@ -103,6 +103,9 @@ export default function LineChart() {
 
   return (
     <div className="flex flex-col items-left justify-center h-full w-full gap-2 rounded-2xl bg-gray-500 p-4 overflow-hidden">
+      <h2 className="text-center text-white text-xl font-semibold">
+        Monthly Sales Forecasting
+      </h2>
       {/* Dropdown populated from API */}
       <select
         id="store-select"
